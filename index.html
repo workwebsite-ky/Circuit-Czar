@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Circuit Czar — Premium Electronics Sales, Repair & Solutions. Your one-stop destination for cutting-edge gadgets, expert repairs, and smart home tech." />
+  <meta name="keywords" content="electronics store, gadgets, phone repair, laptop repair, smart home, Circuit Czar" />
+  <title>Circuit Czar | Premium Electronics & Tech Solutions</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Syne:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- LOADING SCREEN -->
+<div id="loader">
+  <div class="loader-inner">
+    <svg class="loader-circuit" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <polyline points="10,50 30,50 30,20 70,20 70,50 90,50" class="circuit-line"/>
+      <circle cx="10" cy="50" r="3" class="circuit-node"/>
+      <circle cx="30" cy="50" r="3" class="circuit-node"/>
+      <circle cx="30" cy="20" r="3" class="circuit-node"/>
+      <circle cx="70" cy="20" r="3" class="circuit-node"/>
+      <circle cx="70" cy="50" r="3" class="circuit-node"/>
+      <circle cx="90" cy="50" r="3" class="circuit-node"/>
+    </svg>
+    <div class="loader-text">CIRCUIT<span>CZAR</span></div>
+    <div class="loader-bar"><div class="loader-fill"></div></div>
+  </div>
+</div>
+
+<!-- STICKY NAV -->
+<nav id="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-icon">⚡</span>
+      CIRCUIT<span>CZAR</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="packages.html">Packages</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="nav-cta">Get a Quote</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-bg">
+    <div class="grid-overlay"></div>
+    <div class="circuit-bg"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge reveal">⚡ Premium Tech Destination</div>
+    <h1 class="hero-title reveal">
+      Power Your World<br/>
+      <span class="accent-text">With Precision</span><br/>
+      Technology
+    </h1>
+    <p class="hero-sub reveal">
+      From cutting-edge gadgets to expert repairs — Circuit Czar delivers<br/>
+      premium electronics and unmatched technical expertise.
+    </p>
+    <div class="hero-btns reveal">
+      <a href="services.html" class="btn-primary">Explore Services</a>
+      <a href="contact.html" class="btn-ghost">Get Free Quote →</a>
+    </div>
+    <div class="hero-stats reveal">
+      <div class="stat">
+        <span class="stat-num" data-target="5000">0</span><span>+</span>
+        <span class="stat-label">Devices Repaired</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num" data-target="98">0</span><span>%</span>
+        <span class="stat-label">Customer Satisfaction</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num" data-target="8">0</span><span>+</span>
+        <span class="stat-label">Years Experience</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-glow"></div>
+    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=700&auto=format&fit=crop" alt="Premium Electronics Circuit Board" class="hero-img" />
+    <div class="hero-card-float card-1">
+      <span class="card-icon">🔧</span>
+      <span>Expert Repairs</span>
+    </div>
+    <div class="hero-card-float card-2">
+      <span class="card-icon">📱</span>
+      <span>Latest Gadgets</span>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <div class="scroll-dot"></div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-section">
+  <div class="marquee-track">
+    <span>Smartphones</span>
+    <span class="dot">◆</span>
+    <span>Laptops</span>
+    <span class="dot">◆</span>
+    <span>Smart Home</span>
+    <span class="dot">◆</span>
+    <span>Gaming</span>
+    <span class="dot">◆</span>
+    <span>Wearables</span>
+    <span class="dot">◆</span>
+    <span>Accessories</span>
+    <span class="dot">◆</span>
+    <span>Repair Services</span>
+    <span class="dot">◆</span>
+    <span>Custom Builds</span>
+    <span class="dot">◆</span>
+    <span>Smartphones</span>
+    <span class="dot">◆</span>
+    <span>Laptops</span>
+    <span class="dot">◆</span>
+    <span>Smart Home</span>
+    <span class="dot">◆</span>
+    <span>Gaming</span>
+    <span class="dot">◆</span>
+    <span>Wearables</span>
+    <span class="dot">◆</span>
+    <span>Accessories</span>
+    <span class="dot">◆</span>
+    <span>Repair Services</span>
+    <span class="dot">◆</span>
+    <span>Custom Builds</span>
+    <span class="dot">◆</span>
+  </div>
+</div>
+
+<!-- FEATURED SERVICES -->
+<section class="section services-preview" id="services">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">What We Do</div>
+      <h2>Our Core <span class="accent-text">Services</span></h2>
+      <p>From diagnosis to delivery — everything your devices need under one roof.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal" style="--delay:0.1s">
+        <div class="service-icon-wrap">
+          <div class="service-icon">📱</div>
+        </div>
+        <h3>Device Sales</h3>
+        <p>Latest smartphones, tablets, laptops and wearables from premium global brands.</p>
+        <a href="services.html" class="card-link">View Range →</a>
+        <div class="card-glow"></div>
+      </div>
+      <div class="service-card reveal" style="--delay:0.2s">
+        <div class="service-icon-wrap">
+          <div class="service-icon">🔧</div>
+        </div>
+        <h3>Repair & Diagnostics</h3>
+        <p>Expert screen replacements, battery swaps, motherboard repairs and full diagnostics.</p>
+        <a href="services.html" class="card-link">Learn More →</a>
+        <div class="card-glow"></div>
+      </div>
+      <div class="service-card reveal" style="--delay:0.3s">
+        <div class="service-icon-wrap">
+          <div class="service-icon">🏠</div>
+        </div>
+        <h3>Smart Home Setup</h3>
+        <p>Professional installation of smart lighting, security systems, and automation hubs.</p>
+        <a href="services.html" class="card-link">Explore →</a>
+        <div class="card-glow"></div>
+      </div>
+      <div class="service-card reveal" style="--delay:0.4s">
+        <div class="service-icon-wrap">
+          <div class="service-icon">🖥️</div>
+        </div>
+        <h3>Custom PC Builds</h3>
+        <p>Tailor-built gaming rigs and workstations assembled to your exact specifications.</p>
+        <a href="services.html" class="card-link">Build Now →</a>
+        <div class="card-glow"></div>
+      </div>
+      <div class="service-card reveal" style="--delay:0.5s">
+        <div class="service-icon-wrap">
+          <div class="service-icon">🛡️</div>
+        </div>
+        <h3>Warranty & Support</h3>
+        <p>Extended warranty plans and ongoing tech support so you're never left stranded.</p>
+        <a href="services.html" class="card-link">Get Protected →</a>
+        <div class="card-glow"></div>
+      </div>
+      <div class="service-card reveal" style="--delay:0.6s">
+        <div class="service-icon-wrap">
+          <div class="service-icon">⚡</div>
+        </div>
+        <h3>Data Recovery</h3>
+        <p>Professional recovery of lost data from crashed drives, phones, and storage devices.</p>
+        <a href="services.html" class="card-link">Recover Now →</a>
+        <div class="card-glow"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="section why-us">
+  <div class="container">
+    <div class="why-inner">
+      <div class="why-content reveal">
+        <div class="section-tag">Why Circuit Czar</div>
+        <h2>Trusted by Tech<br/><span class="accent-text">Enthusiasts</span></h2>
+        <p>We combine technical mastery with a passion for innovation. Every device that passes through our hands receives meticulous care and precision.</p>
+        <ul class="why-list">
+          <li><span class="check">✓</span> Certified technicians with 8+ years experience</li>
+          <li><span class="check">✓</span> Genuine parts and premium components only</li>
+          <li><span class="check">✓</span> 90-day repair warranty on all services</li>
+          <li><span class="check">✓</span> Same-day turnaround on most repairs</li>
+          <li><span class="check">✓</span> Transparent pricing — no hidden charges</li>
+        </ul>
+        <a href="about.html" class="btn-primary">Our Story →</a>
+      </div>
+      <div class="why-visual reveal">
+        <img src="https://images.unsplash.com/photo-1588702547919-26089e690ecc?w=600&auto=format&fit=crop" alt="Expert tech repair" class="why-img" />
+        <div class="why-badge">
+          <span class="badge-num">98%</span>
+          <span>Success Rate</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section testimonials">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">Client Reviews</div>
+      <h2>What Our Customers <span class="accent-text">Say</span></h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card reveal" style="--delay:0.1s">
+        <div class="stars">★★★★★</div>
+        <p>"Brought my water-damaged laptop in and they recovered everything. Absolute wizards. Fast, professional, and honest pricing."</p>
+        <div class="testi-author">
+          <div class="author-avatar">AR</div>
+          <div>
+            <strong>Ahmed Raza</strong>
+            <span>Karachi</span>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal" style="--delay:0.2s">
+        <div class="stars">★★★★★</div>
+        <p>"Got a custom PC built here for my design studio. They listened to every spec and delivered a machine that blows everything away."</p>
+        <div class="testi-author">
+          <div class="author-avatar">SF</div>
+          <div>
+            <strong>Sara Farooqi</strong>
+            <span>Designer</span>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal" style="--delay:0.3s">
+        <div class="stars">★★★★★</div>
+        <p>"The smart home setup they did for my apartment is incredible. Everything just works perfectly. Highly recommend Circuit Czar!"</p>
+        <div class="testi-author">
+          <div class="author-avatar">MK</div>
+          <div>
+            <strong>Mohsin Khan</strong>
+            <span>Homeowner</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="cta-banner">
+  <div class="cta-bg"></div>
+  <div class="container">
+    <div class="cta-content reveal">
+      <h2>Ready to Upgrade Your <span class="accent-text">Tech Life?</span></h2>
+      <p>Contact us today for a free consultation or walk into our store.</p>
+      <div class="cta-btns">
+        <a href="contact.html" class="btn-primary">Get Free Quote</a>
+        <a href="packages.html" class="btn-ghost">View Packages →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section faq-section">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">FAQ</div>
+      <h2>Frequently Asked <span class="accent-text">Questions</span></h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <button class="faq-q">How long does a typical repair take? <span class="faq-arrow">▼</span></button>
+        <div class="faq-a"><p>Most common repairs like screen replacements, battery swaps, and charging port fixes are completed same-day within 1–3 hours. Complex motherboard or data recovery jobs may take 24–48 hours.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">Do you use genuine parts? <span class="faq-arrow">▼</span></button>
+        <div class="faq-a"><p>Yes. We exclusively use OEM or certified premium aftermarket parts. We never compromise on quality — every part comes with its own warranty.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">Do you offer pickup and delivery? <span class="faq-arrow">▼</span></button>
+        <div class="faq-a"><p>Yes, we offer doorstep pickup and delivery for repairs within the city. Contact us to schedule a convenient time.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">What warranty do you offer on repairs? <span class="faq-arrow">▼</span></button>
+        <div class="faq-a"><p>All repair services come with a 90-day warranty covering parts and labour. If the same issue recurs within this period, we fix it free of charge.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">Can I get a custom PC built for gaming? <span class="faq-arrow">▼</span></button>
+        <div class="faq-a"><p>Absolutely! We specialise in custom builds for gaming, content creation, and professional workstations. Book a free consultation and we'll design the perfect build within your budget.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-glow"></div>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo">⚡ CIRCUIT<span>CZAR</span></a>
+        <p>Premium electronics, expert repairs, and smart solutions — all under one roof.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="Twitter">tw</a>
+          <a href="#" aria-label="YouTube">yt</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">Device Sales</a></li>
+          <li><a href="services.html">Repair & Diagnostics</a></li>
+          <li><a href="services.html">Custom PC Builds</a></li>
+          <li><a href="services.html">Smart Home Setup</a></li>
+          <li><a href="services.html">Data Recovery</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="packages.html">Packages</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li>📧 <a href="mailto:contactglanders@gmail.com">contactglanders@gmail.com</a></li>
+          <li>📍 Karachi, Pakistan</li>
+          <li>🕒 Mon–Sat: 10am – 8pm</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Circuit Czar. All rights reserved.</p>
+      <p>Designed with ⚡ for tech lovers</p>
+    </div>
+  </div>
+</footer>
+
+<!-- BACK TO TOP -->
+<button id="backToTop" aria-label="Back to top">↑</button>
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/+92300000000" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" width="28" height="28" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
